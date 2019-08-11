@@ -1,0 +1,12 @@
+name: 'TSpec'
+scopeName: 'tspec'
+type: 'tree-sitter'
+parser: 'tree-sitter-tspec'
+fileTypes: ['tspec']
+
+scopes:
+  'source_file': 'source.tspec'
+  '''
+  type_def > "type",
+  type_def > "end"
+  ''': 'keyword.control'
