@@ -8,15 +8,15 @@ scopes:
   'source_file': 'source.tspec'
   '''
   type_def > "type",
-  type_def > attributes_section > "attributes",
+  type_def > type_body > variables_section > "attributes",
   type_def > "end",
   ''': 'keyword.control'
 
   '''
   type_def > type_id,
-  type_def > attributes_section > attribute_def > type_id
+  type_def > type_body > variables_section > variable_def > type_id
   ''': 'support.storage.type'
 
   '''
-  type_def > attributes_section > attribute_def > attribute_id
+  type_def > type_body > variables_section > variable_def > variable_id
   ''': 'variable.other.member'
