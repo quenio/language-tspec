@@ -16,7 +16,7 @@ scopes:
 
   '''
   type_def > type_id,
-  type_def > type_body > extends_section > type_id,
+  type_def > type_body > extends_section > extend_def > type_id,
   type_def > type_body > variables_section > variable_def > type_id
   ''': 'support.storage.type'
 
