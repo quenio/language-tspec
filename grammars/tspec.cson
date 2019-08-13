@@ -16,8 +16,9 @@ scopes:
   ''': 'keyword.control'
 
   '''
-  extend_def > type_id,
-  type_ref > type_id
+  type_header > type_id,
+  type_ref > type_id,
+  extend_def > type_id
   ''': 'support.storage.type'
 
   '''
