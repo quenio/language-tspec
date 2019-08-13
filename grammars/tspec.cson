@@ -18,7 +18,8 @@ scopes:
   '''
   type_def > type_id,
   extend_def > type_id,
-  variable_def > type_id
+  type_expr > type_id,
+  function_type_expr > type_id
   ''': 'support.storage.type'
 
   '''
