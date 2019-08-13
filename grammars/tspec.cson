@@ -6,12 +6,13 @@ fileTypes: ['tspec']
 
 scopes:
   'source_file': 'source.tspec'
+
   '''
   type_def > "type",
-  type_def > type_body > extends_section > "extends",
-  type_def > type_body > variables_section > "variables",
-  type_def > type_body > operations_section > "operations",
-  type_def > "end"
+  type_def > "end",
+  extends_section > "extends",
+  variables_section > "variables",
+  operations_section > "operations"
   ''': 'keyword.control'
 
   '''
