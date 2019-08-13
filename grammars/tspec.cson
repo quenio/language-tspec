@@ -17,16 +17,16 @@ scopes:
 
   '''
   type_def > type_id,
-  extends_section > extend_def > type_id,
-  variables_section > variable_def > type_id
+  extend_def > type_id,
+  variable_def > type_id
   ''': 'support.storage.type'
 
   '''
-  variables_section > variable_def > member_id
+  variable_def > member_id
   ''': 'variable.other.member'
 
   '''
-  operations_section > operation_def > member_id
+  operation_def > member_id
   ''': 'entity.name.function'
 
   'comment_line': 'comment.block'
