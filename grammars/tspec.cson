@@ -27,3 +27,5 @@ scopes:
   '''
   type_def > type_body > operations_section > operation_def > member_id
   ''': 'entity.name.function'
+
+  'comment_line': 'comment.block'
