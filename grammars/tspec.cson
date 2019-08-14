@@ -23,11 +23,24 @@ scopes:
 
   '''
   variable_def > member_id,
+  variable_ref > member_id,
   operation_param_def > member_id
   ''': 'variable.other.member'
 
   '''
   operation_def > member_id
   ''': 'entity.name.function'
+
+  '''
+  instance_expr > literal_boolean
+  ''': 'constant.language.boolean'
+
+  '''
+  instance_expr > literal_number
+  ''': 'constant.numeric.decimal'
+
+  '''
+  instance_expr > literal_string
+  ''': 'string.quoted.double'
 
   'comment_line': 'comment.block'
