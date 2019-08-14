@@ -18,7 +18,7 @@ scopes:
   '''
   conditional_expr > "if",
   conditional_expr > "then",
-  conditional_expr > "else"
+  conditional_expr > "else",
   infixed_expr > "and",
   infixed_expr > "or",
   infixed_expr > "implies",
