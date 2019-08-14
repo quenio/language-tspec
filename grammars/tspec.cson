@@ -22,7 +22,8 @@ scopes:
   ''': 'support.storage.type'
 
   '''
-  variable_def > member_id
+  variable_def > member_id,
+  operation_param_def > member_id
   ''': 'variable.other.member'
 
   '''
