@@ -16,6 +16,16 @@ scopes:
   ''': 'keyword.control'
 
   '''
+  conditional_expr > "if",
+  conditional_expr > "then",
+  conditional_expr > "else"
+  infixed_expr > "and",
+  infixed_expr > "or",
+  infixed_expr > "implies",
+  prefixed_expr > "not"
+  ''': 'keyword.operator'
+
+  '''
   type_header > type_id,
   type_ref > type_id,
   extend_def > type_id
@@ -25,7 +35,7 @@ scopes:
   variable_def > member_id,
   variable_ref > member_id,
   operation_param_def > member_id
-  ''': 'variable.other.member'
+  ''': 'constant.variable'
 
   '''
   operation_def > member_id
