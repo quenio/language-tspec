@@ -14,7 +14,8 @@ scopes:
   variables_section > "variables",
   operations_section > "operations",
   precondition_body > "require",
-  postcondition_body > "ensure"
+  postcondition_body > "ensure",
+  operation_body > "end"
   ''': 'keyword.control'
 
   '''
