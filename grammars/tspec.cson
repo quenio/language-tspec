@@ -22,7 +22,10 @@ scopes:
   infixed_expr > "and",
   infixed_expr > "or",
   infixed_expr > "implies",
-  prefixed_expr > "not"
+  prefixed_expr > "not",
+  quantified_expr > "all",
+  quantified_expr > "exists",
+  quantified_expr > "in"
   ''': 'keyword.control'
 
   '''
