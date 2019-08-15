@@ -16,7 +16,7 @@ scopes:
   precondition_body > "require",
   postcondition_body > "ensure",
   operation_body > "end"
-  ''': 'storage.type'
+  ''': 'keyword.control.directive'
 
   '''
   conditional_expr > "if",
@@ -26,7 +26,7 @@ scopes:
   infixed_expr > "or",
   infixed_expr > "implies",
   prefixed_expr > "not"
-  ''': 'keyword.operator'
+  ''': 'keyword.control'
 
   '''
   type_header > type_id,
