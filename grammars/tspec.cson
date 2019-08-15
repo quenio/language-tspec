@@ -12,7 +12,9 @@ scopes:
   type_def > "end",
   extends_section > "extends",
   variables_section > "variables",
-  operations_section > "operations"
+  operations_section > "operations",
+  precondition_body > "require",
+  postcondition_body > "ensure"
   ''': 'keyword.control'
 
   '''
