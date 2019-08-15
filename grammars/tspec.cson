@@ -32,7 +32,7 @@ scopes:
   type_header > type_id,
   type_ref > type_id,
   extend_def > type_id
-  ''': 'support.storage.type'
+  ''': 'keyword.control.directive'
 
   '''
   variable_def > member_id,
