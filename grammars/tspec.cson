@@ -29,7 +29,7 @@ scopes:
   type_header > type_id,
   type_ref > type_id,
   extend_def > type_id
-  ''': 'support.storage.type'
+  ''': 'entity.name.function'
 
   '''
   variable_def > member_id,
@@ -38,7 +38,7 @@ scopes:
   param_def > member_id,
   member_list > member_id,
   lambda_params > member_id,
-  ''': 'entity.name.function'
+  ''': 'support.storage.type'
 
   '''
   instance_expr > literal_boolean
