@@ -16,7 +16,7 @@ scopes:
   precondition_body > "require",
   postcondition_body > "ensure",
   operation_body > "end"
-  ''': 'keyword'
+  ''': 'storage.modifier'
 
   '''
   conditional_expr > "if",
@@ -26,31 +26,31 @@ scopes:
   infixed_expr > "or",
   infixed_expr > "implies",
   prefixed_expr > "not"
-  ''': 'keyword'
+  ''': 'keyword.control'
 
   '''
   type_header > type_id,
   type_ref > type_id,
   extend_def > type_id
-  ''': 'type'
+  ''': 'support.storage.type'
 
   '''
   variable_def > member_id,
   variable_ref > member_id,
   operation_def > member_id,
   operation_param_def > member_id
-  ''': 'name'
+  ''': 'entity.name.function'
 
   '''
   instance_expr > literal_boolean
-  ''': 'boolean'
+  ''': 'constant.language.boolean'
 
   '''
   instance_expr > literal_number
-  ''': 'decimal'
+  ''': 'constant.numeric.decimal'
 
   '''
   instance_expr > literal_string
-  ''': 'double'
+  ''': 'string.quoted.double'
 
-  'comment_line': 'comment'
+  'comment_line': 'comment.block'
