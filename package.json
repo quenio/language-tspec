@@ -1,6 +1,6 @@
 {
   "name": "language-tspec",
-  "version": "0.13.1",
+  "version": "0.13.2",
   "description": "Atom package for the tspec language.",
   "keywords": [
     "language",

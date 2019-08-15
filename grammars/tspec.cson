@@ -16,7 +16,7 @@ scopes:
   precondition_body > "require",
   postcondition_body > "ensure",
   operation_body > "end"
-  ''': 'keyword.control'
+  ''': 'storage.type'
 
   '''
   conditional_expr > "if",
