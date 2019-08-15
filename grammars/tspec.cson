@@ -38,7 +38,9 @@ scopes:
   variable_def > member_id,
   variable_ref > member_id,
   operation_def > member_id,
-  operation_param_def > member_id
+  param_def > member_id,
+  member_list > member_id,
+  lambda_params > member_id,
   ''': 'entity.name.function'
 
   '''
