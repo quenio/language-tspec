@@ -41,6 +41,7 @@ scopes:
   param_def > member_id,
   member_list > member_id,
   lambda_params > member_id,
+  quantified_expr > member_id
   ''': 'support.storage.type'
 
   '''
