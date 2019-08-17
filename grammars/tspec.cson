@@ -31,7 +31,9 @@ scopes:
   rename_section > "rename",
   rename_statement > "as",
   redefine_section > "redefine",
-  extend_body > "end"
+  extend_body > "end",
+  enum_expr > "any",
+  enum_expr > "in"
   ''': 'keyword.control'
 
   '''
