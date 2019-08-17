@@ -67,4 +67,8 @@ scopes:
   instance_expr > literal_string
   ''': 'string.quoted.double'
 
+  '''
+  instance_expr > literal_symbol
+  ''': 'constant.other.symbol'
+
   'comment_line': 'comment.block'
