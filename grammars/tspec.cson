@@ -29,7 +29,7 @@ scopes:
   quantified_expr > "in",
   invocation > "invoked",
   rename_section > "rename",
-  rename_section > "as",
+  rename_statement > "as",
   redefine_section > "redefine",
   extend_body > "end"
   ''': 'keyword.control'
