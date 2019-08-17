@@ -38,6 +38,7 @@ scopes:
 
   '''
   variable_def > member_id,
+  invariant_def > member_id,
   operation_def > member_id,
   param_def > member_id,
   member_list > member_id,
