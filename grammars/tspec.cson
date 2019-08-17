@@ -31,7 +31,9 @@ scopes:
   ''': 'keyword.control'
 
   '''
-  type_header > type_id,
+  type_def > type_id,
+  type_def_param_list > type_id,
+  type_constraint > type_id,
   type_ref > type_id,
   extend_def > type_id
   ''': 'entity.name.function'
