@@ -27,7 +27,11 @@ scopes:
   quantified_expr > "all",
   quantified_expr > "exists",
   quantified_expr > "in",
-  invocation > "invoked"
+  invocation > "invoked",
+  rename_section > "rename",
+  rename_section > "as",
+  redefine_section > "redefine",
+  extend_body > "end"
   ''': 'keyword.control'
 
   '''
@@ -46,7 +50,9 @@ scopes:
   member_list > member_id,
   lambda_params > member_id,
   quantified_expr > member_id,
-  invocation > member_id
+  invocation > member_id,
+  rename_statement > member_id,
+  redefine_section > member_id
   ''': 'support.storage.type'
 
   '''
