@@ -25,7 +25,8 @@ scopes:
   prefixed_expr > "not",
   quantified_expr > "all",
   quantified_expr > "exists",
-  quantified_expr > "in"
+  quantified_expr > "in",
+  invocation > "invoked"
   ''': 'keyword.control'
 
   '''
@@ -36,12 +37,12 @@ scopes:
 
   '''
   variable_def > member_id,
-  variable_ref > member_id,
   operation_def > member_id,
   param_def > member_id,
   member_list > member_id,
   lambda_params > member_id,
-  quantified_expr > member_id
+  quantified_expr > member_id,
+  invocation > member_id
   ''': 'support.storage.type'
 
   '''
