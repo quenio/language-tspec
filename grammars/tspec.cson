@@ -69,6 +69,6 @@ scopes:
 
   '''
   instance_expr > literal_symbol
-  ''': 'constant.other.symbol'
+  ''': 'constant.other.symbol.smalltalk'
 
   'comment_line': 'comment.block'
