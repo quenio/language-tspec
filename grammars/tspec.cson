@@ -18,7 +18,7 @@ scopes:
   ensure_section > "ensure",
   scenarios_section > "scenario",
   given_section > "given",
-  then_section > "then"
+  then_section > "then",
   operation_body > "end",
   conditional_expr > "if",
   conditional_expr > "then",
@@ -52,14 +52,13 @@ scopes:
   invariant_def > member_id,
   operation_def > member_id,
   param_def > member_id,
+  scenario_def > member_id,
   member_list > member_id,
   lambda_params > member_id,
   quantified_expr > member_id,
   invocation > member_id,
   rename_statement > member_id,
   redefine_section > member_id,
-  assertion > member_id,
-  scenario_def > member_id,
   ''': 'support.storage.type'
 
   '''
