@@ -14,8 +14,11 @@ scopes:
   variables_section > "variables",
   invariants_section > "invariants",
   operations_section > "operations",
-  precondition_body > "require",
-  postcondition_body > "ensure",
+  require_section > "require",
+  ensure_section > "ensure",
+  scenarios_section > "scenario",
+  given_section > "given",
+  then_section > "then"
   operation_body > "end",
   conditional_expr > "if",
   conditional_expr > "then",
@@ -33,9 +36,7 @@ scopes:
   redefine_section > "redefine",
   extend_body > "end",
   enum_expr > "any",
-  enum_expr > "in",
-  given_section > "given",
-  then_section > "then"
+  enum_expr > "in"
   ''': 'keyword.control'
 
   '''
