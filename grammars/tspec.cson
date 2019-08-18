@@ -33,7 +33,9 @@ scopes:
   redefine_section > "redefine",
   extend_body > "end",
   enum_expr > "any",
-  enum_expr > "in"
+  enum_expr > "in",
+  given_section > "given",
+  then_section > "then"
   ''': 'keyword.control'
 
   '''
@@ -54,7 +56,9 @@ scopes:
   quantified_expr > member_id,
   invocation > member_id,
   rename_statement > member_id,
-  redefine_section > member_id
+  redefine_section > member_id,
+  assertion > member_id,
+  scenario_def > member_id,
   ''': 'support.storage.type'
 
   '''
