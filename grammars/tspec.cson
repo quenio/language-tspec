@@ -17,7 +17,7 @@ scopes:
   require_section > "require",
   ensure_section > "ensure",
   scenarios_section > "scenarios",
-  scenarios_section > "end",
+  scenario_def > "end",
   given_section > "given",
   then_section > "then",
   operation_body > "end",
