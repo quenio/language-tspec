@@ -7,7 +7,7 @@
     "grammar",
     "tspec"
   ],
-  "repository": "https://github.com/atom/language-tspec",
+  "repository": "https://github.com/quenio/language-tspec",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
