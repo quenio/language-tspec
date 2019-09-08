@@ -60,6 +60,7 @@ scopes:
   invocation > member_id,
   rename_statement > member_id,
   redefine_section > member_id,
+  assertion > member_id
   ''': 'support.storage.type'
 
   '''
