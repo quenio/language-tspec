@@ -1,6 +1,6 @@
 {
   "name": "language-tspec",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Atom package for the tspec language.",
   "keywords": [
     "language",
@@ -13,6 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "tree-sitter-tspec": ">=0.25.0"
+    "tree-sitter-tspec": ">=0.26.0"
   }
 }
